@@ -1,0 +1,187 @@
+/*
+
+  @author Matthew Edwards
+  @Last modified 15/04/20
+
+*/
+
+* {
+     font-family: 'Noto Serif', serif;
+}
+ html{
+     margin: 0;
+}
+ .h2_style{
+     padding: 0.5em;
+     margin: 0.5em;
+}
+
+/*This will have a light grey background*/
+ body {
+     padding: 0;
+     margin: 0;
+     margin-top: 0em;
+     padding-top: 0em;
+     margin-bottom: 0;
+     bottom:0;
+}
+#ad_style{
+  text-decoration: #00203FFF;
+  text-shadow: #00203FFF;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.5em;
+}
+/*This will have the main infomation in this area*/
+ #container_body {
+     background-color: #A2A2A1FF;
+}
+/**/
+ #fancy_photos_style{
+     padding: 2em;
+     width:100%;
+}
+/*This styles the body*/
+ #fancy_bio {
+     width: 50%;
+     float: left;
+     margin: 0;
+     border: 0;
+}
+/*This styles the singing section*/
+ #fancy_style_sing {
+     padding: 2em;
+     float: left;
+     flex: auto;
+     width:50%;
+     height: 20em;
+     border: 1px solid black;
+     border-radius: 5px;
+}
+/*This styles the walking section*/
+ #fancy_style_walking {
+     padding: 2em;
+     float: left;
+     flex: auto;
+     width: 100%;
+     height: 30em;
+     margin: 0;
+     border: 0;
+}
+/*This styles the interests section*/
+ #fancy_style_other {
+     padding: 2em;
+     flex: auto;
+     width: 50%;
+     height: 20em;
+     float: left;
+     border: 1px solid black;
+     border-radius: 5px;
+}
+/*This styles the saxophone section*/
+ #fancy_sax_div {
+     width: 50%;
+     float: left;
+     margin: 0;
+     border: 0;
+}
+/*This styles the each of the photos*/
+ .fancy_photos{
+     float: left;
+     right: -10%;
+     text-align: left;
+}
+/*This styles the Japan section*/
+ #fancy_o{
+     float: left;
+     flex: auto;
+     margin: 0;
+     border: 0;
+}
+/*This styles the header*/
+ #fancy_header{
+     text-align: center;
+     padding-bottom: 20px;
+     text-decoration: #00203FFF;
+     text-shadow: #00203FFF;
+     text-transform: capitalize;
+     font-size: 2em;
+}
+/*This styles the navigation*/
+ #fancy_nav {
+     background-color: #CBCE91FF;
+     color: #00203FFF;
+     height: 10%;
+     width: 100%;
+     padding-bottom: 3em;
+     margin: 0;
+}
+/*This styles the cooking section*/
+ #fancy_cooking{
+     width: 50%;
+     float: left;
+     margin: 0;
+     border: 0;
+}
+/*this styles the dancing section*/
+ #fancy_dancing{
+     width: 50%;
+     float: left;
+     margin: 0;
+     border: 0;
+}
+/*This style the table*/
+ #fancy_table {
+     float: right;
+     padding: 20px;
+     flex: auto;
+     width: 40%;
+     height: 20em;
+     margin: 0;
+     border: 0;
+}
+ table{
+     width: 100%;
+     left: 20%;
+}
+ table, th, td {
+     border: 1px solid black;
+     border-collapse: collapse;
+}
+ th, td {
+     padding: 1em;
+     text-align: left;
+}
+/*this colours the different rows in the table*/
+ table.table_colours tr:nth-child(even) {
+     background-color: #89ABE3FF;
+}
+ table.table_colours tr:nth-child(odd) {
+     background-color: #FCF6F5FF;
+}
+ table.table_colours th {
+     background-color: #0063B2FF;
+     color: white;
+}
+/*This styles the footer*/
+ #footer{
+     background-color: darkolivegreen;
+     padding: 1em;
+     text-align: center;
+     color: #CBCE91FF;
+     position:relative;
+     bottom:0px;
+     width: 100%;
+     margin-top: auto;
+     height: 20%;
+     clear: both;
+     flex: auto;
+}
+
+@media only screen and (max-width: 768px) {
+/*This will make sure all the elements can can fit in a smaller screen size*/
+  *{
+    max-width: 100%;
+  }
+
+}

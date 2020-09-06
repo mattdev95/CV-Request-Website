@@ -1,0 +1,340 @@
+/*
+
+  @author Matthew Edwards
+  @Last modified 23/04/20
+
+*/
+
+/*This styles all of the tags and makes sure there are no gaps in the webpage*/
+* {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     box-sizing: border-box;
+     font-family: 'Noto Serif', serif;
+     font-weight: 500;
+     line-height: 1em;
+
+}
+/*This styles the body and the html tag*/
+ body,html {
+     margin:0;
+     padding:0;
+
+}
+/*This styles the header 1*/
+ h1 {
+     height: 5em;
+     padding: 0;
+     margin: 0;
+}
+/*This styles the header 2*/
+h2{
+      font-size: 2em;
+      color: #000000FF;
+}
+/*This styles any paragraphs*/
+ p {
+     display: inline-block;
+}
+/*This makes the font size of the textbox labels this size*/
+label {
+      font-size: 1em;
+      color: #000000FF;
+}
+/*This styles the top container, were the animations are going to be*/
+ #container1{
+     height: 50%;
+     width: 100%;
+     max-width: 100%;
+     background-color: #ccccff;
+     margin: 0;
+     -webkit-transition-property: -webkit-transform;
+     -webkit-transition-timing-function: cubic-bezier(0,0,0.25,1);
+     -webkit-transition-duration: 0;
+     -webkit-transform: translate3d(0, 0, 0);
+}
+/*This style the bottom container were the form is going to be*/
+ #container2{
+     height: 50%;
+     width: 100%;
+     max-width: 100%;
+     background-color: #CDB599FF;
+     -webkit-transition-property: -webkit-transform;
+     -webkit-transition-timing-function: cubic-bezier(0,0,0.25,1);
+     -webkit-transition-duration: 0;
+     -webkit-transform: translate3d(0, 0, 0);
+}
+/*This is for the scroll effect of the animations*/
+ .animation_banner {
+     width: 100%;
+     height: 12em;
+     padding: 2em;
+     background-color: #B1B3B3FF;
+     text-align: center;
+     color: #FCF6F5FF;
+     font-size: 2em;
+}
+/*This styles the header of the page*/
+ #header_style{
+    text-align: center;
+    padding: 2.5em 1em 2.5em 1em;
+    text-decoration: #00203FFF;
+    text-shadow: #00203FFF;
+    text-transform: capitalize;
+    font-size: 2.8em;
+    margin: 0 auto;
+    color: #0066ff;
+
+}
+/*This styles the navigation header*/
+#nav_style{
+    background-color:  #ccccff;
+    height: 10%;
+    width: 100%;
+    padding-bottom: 3em;
+    margin: 0;
+}
+/*This styles the form*/
+ #form_style{
+     text-align: center;
+     margin: 0;
+     padding: 4em 2em;
+
+}
+/*This will style banner*/
+ #storage_container{
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background: #5B84B1FF;
+     color: white;
+     padding: 0 2em;
+     transition: 400ms;
+     box-shadow: 0 -0.3em 2em #5B84B1FF;
+     display: none;
+}
+
+/*This styles the button for accepting local storage*/
+ #storageBtn{
+     background-color: rgb(51, 204, 204);
+     color: #FFFFFFFF;
+     border: 0;
+     padding: 1em 1em;
+     font-size: 1.5em;
+     margin-bottom: 1em;
+     border-radius: 0.5em;
+     cursor: pointer;
+}
+/*This is for the information in the banner*/
+ #stor_par{
+     margin: 2em;
+     line-height: 2;
+}
+
+/*This style the form border*/
+ #CV_form{
+     border: 0.2em solid #42EADDFF;
+}
+/*this styles the colour of the hover over the textboxes*/
+ .highlight{
+     border: 1px solid #0063B2FF;
+     background-color: #9CC3D5FF;
+}
+/*this styles the colour of the click over the textboxes*/
+
+ .clickHighlight{
+     border: 1px solid #0063B2FF;
+     background-color: #9CC3D5FF;
+}
+
+/*This positions the home icon to the top left of the page*/
+ #home_link{
+     position: absolute;
+     top: 0;
+     left: 0;
+
+}
+/*This is to style the input fields*/
+ input[type=text] {
+     padding:0.5em 0.3em;
+     border:0.2em solid #0063B2FF;
+     -webkit-border-radius: 0.3em;
+     border-radius: 0.3em;
+     max-width: 100%;
+     width: 20em;
+     font-size: 1em;
+}
+
+/*This styles the submit button*/
+ input[type=submit] {
+     padding:0.5em 0.8em;
+     background-color:#FFFFFFFF;
+     border:0 none;
+     cursor:pointer;
+     -webkit-border-radius: 0.3em;
+     border-radius: 0.5em;
+     max-width: 100%;
+     font-weight: bold;
+     font-size: 1em;
+}
+/*This styles the clear button*/
+ input[type=button] {
+      padding:0.5em 0.8em;
+     background-color:#ccc;
+     border:0 none;
+     cursor:pointer;
+     -webkit-border-radius: 0.3em;
+     border-radius: 0.5em;
+     max-width: 100%;
+     font-size: 1em;
+}
+/*This style the email input*/
+ input[type=email] {
+     padding:0.5em 0.3em;
+     border:0.2em solid #0063B2FF;
+     -webkit-border-radius: 0.3em;
+     border-radius: 0.3em;
+     max-width: 100%;
+     width: 20em;
+     font-size: 1em;
+
+}
+
+
+/*This styles the comments area*/
+ textarea{
+     padding:0.5em 0.3em;
+     background:#FFFFFFFF;
+     border:0 none;
+     -webkit-border-radius: 0.3em;
+     border-radius: 0.3em;
+     max-width: 100%;
+     border:0.2em solid #0063B2FF;
+     font-size: 1em;
+}
+/*This will style the radio buttons*/
+.radio_style {
+      padding: 1em;
+     -webkit-appearance: none; /*These three are for the appearance*/
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #FFFFFFFF;
+     top: 0.6em;
+     height: 2em;
+     width: 2em;
+     border: 0;
+     border-radius: 2em;
+     cursor: pointer;
+     margin-left: 1em;
+     outline: none;
+}
+/*Once the user hovers over the radio button*/
+.radio_style:hover {
+     background-color: #9CC3D5FF;
+}
+/*Once the user selects the radio button*/
+.radio_style:checked {
+     background-color: #0063B2FF;
+}
+
+/*This styles the dark background change button*/
+ #blackBackgd{
+     padding:0.5em 1em;
+     background-color:black;
+     color: #FCF6F5FF;
+     border:0 none;
+     cursor:pointer;
+     -webkit-border-radius: 5px;
+     border-radius: 0.3em;
+     margin: 0.3em;
+     font-size: 1em;
+}
+/*This style the original background colour button*/
+#sandBackgd{
+    padding:0.5em 1em;
+    background-color: #CDB599FF;
+    color: #FFFFFFFF;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 0.3em;
+    margin: 0.3em;
+    border:0.2em solid #0063B2FF;
+    font-size: 1em;
+}
+/*This styles the scroll up button*/
+#scrollPage{
+   padding:0.2em 0.2em;
+   background:#ccc;
+   border:0 none;
+   cursor:pointer;
+   -webkit-border-radius: 0.3em;
+   border-radius: 0.5em;
+   max-width: 100%;
+   font-size: 1em;
+}
+/*This style the request button*/
+#requestPage{
+    padding:0.4em 0.4em;
+    width: 15em;
+    height: 3em;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 0.3em;
+    border-radius: 0.3em;
+    max-width: 100%;
+    font-size: 1em;
+
+}
+/*This styles the font size button container*/
+ #button_container {
+     width: 40em;
+     top: 0;
+     text-align: center;
+
+}
+
+/*This styles the font size buttons*/
+ #up{
+     width: 4em;
+     height: 4em;
+     padding:0.3em 0.7em;
+     background-color:#4B878BFF;
+     color: white;
+     border:0 none;
+     cursor:pointer;
+     -webkit-border-radius: 0.2em;
+     border-radius: 0.2em;
+     text-align: center;
+     font-size: 1em;
+}
+/*This styles the font size down button*/
+ #down{
+     width: 3em;
+     height: 3em;
+     padding:0.3em 0.7em;
+     background-color:#4B878BFF;
+     color: #FCF6F5FF;
+     border:0 none;
+     cursor:pointer;
+     -webkit-border-radius: 0.2em;
+     border-radius: 0.3em;
+     text-align: center;
+     font-size: 1em;
+}
+
+/*Anon. (n.d.) Responsive Web Design - Media Queries Available from: https://www.w3schools.com/css/tryit.
+asp?filename=tryresponsive_breakpoints [Accessed 20 March 2020]*/
+@media only screen and (max-width: 768px) {
+/*This will make sure all the elements can can fit in a smaller screen size*/
+  *{
+    max-width: 100%;
+  }
+
+}

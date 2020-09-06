@@ -1,0 +1,36 @@
+*{
+    font-family: 'Noto Serif', serif;
+}
+/*This colours the body*/
+ body{
+     background-color: #ccccff;
+}
+/*This styles the container*/
+ #container{
+     width: 100%;
+     height: 100%;
+}
+/*This styles the header*/
+ #header_style{
+     color: #0066ff;
+}
+/*This styles the home*/
+ #home_link{
+     position: absolute;
+     top: 0;
+     left: 0;
+     color: blue;
+}
+/*This style the message*/
+ #message_style{
+     padding: 1em;
+}
+/*Anon. (n.d.) Responsive Web Design - Media Queries Available from: https://www.w3schools.com/css/tryit.
+asp?filename=tryresponsive_breakpoints [Accessed 20 March 2020]*/
+@media only screen and (max-width: 768px) {
+/*This will make sure all the elements can can fit in a smaller screen size*/
+  *{
+    max-width: 100%;
+  }
+
+}

@@ -1,0 +1,64 @@
+*{
+
+     font-family: 'Noto Serif', serif;
+}
+/*This styles the body*/
+ body{
+     background-color: #ccccff;
+}
+/*This styles the container*/
+ #container{
+     background-color: #ccccff;
+     width: 100%;
+     height: 100%;
+     margin:auto;
+     overflow:auto;
+     max-width: 100%;
+}
+
+/*This styles the home link*/
+ #home_link{
+     position: absolute;
+     top: 0;
+     left: 0;
+     color: blue;
+     max-width: 100%;
+}
+/*This styles the table*/
+ table {
+     width:50%;
+     text-align: center;
+}
+
+ table, th, td {
+     border: 0.2em solid blue;
+     border-collapse: collapse;
+}
+
+ th, td {
+     padding: 2em;
+     text-align: left;
+}
+/*This styles the table position*/
+ #table_style{
+     position: absolute;
+     left: 10%;
+     right: 20%;
+     max-width: 100%;
+     padding: 1em 2em;
+}
+/*This styles header*/
+ #table_header{
+     color: #0066ff;
+     padding: 1em 2em;
+     max-width: 100%;
+}
+/*Anon. (n.d.) Responsive Web Design - Media Queries Available from: https://www.w3schools.com/css/tryit.
+asp?filename=tryresponsive_breakpoints [Accessed 20 March 2020]*/
+@media only screen and (max-width: 768px) {
+/*This will make sure all the elements can can fit in a smaller screen size*/
+  *{
+    max-width: 100%;
+  }
+
+}
