@@ -6,8 +6,8 @@ This website was for my Interactive Web Authoring module and I have removed all 
 
 To build the images, in the terminal you need to do:
 
-docker-compose up --build -d
+  docker-compose up --build -d
 
 To then stop your containers:
 
-docker-compose down -v
+  docker-compose down -v
