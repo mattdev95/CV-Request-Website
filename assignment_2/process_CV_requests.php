@@ -36,7 +36,7 @@ require_once "db.php";
 <body>
 	<div id="container">
 		<div id="home_link">
-	      <a href="//scm.ulster.ac.uk/~B00774765/workspace/com109/assignment_2/web_form.html">
+	      <a href="assignment_2/web_form.html">
 	      <img border="0" alt="Go back to the web form" src="images/back.png" width="50" height="50">
 	      </a>
     </div>

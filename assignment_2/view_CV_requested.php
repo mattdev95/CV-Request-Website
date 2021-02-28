@@ -22,7 +22,7 @@ $result = $db_connection->query($sql);
    <div id="container">
    <!--This goes to the image map-->
      <div id="home_link">
-        <a href="assignment_2/web_form.html">
+        <a href="/web_form.html">
         <img border="0" alt="Go back to the web form" src="images\back.png" width="50" height="50">
         </a>
      </div>
