@@ -1,11 +1,12 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <!-- Author:  Matthew Edwards -->
 <!-- Created: 20/03/20  -->
 <!-- Description: My web form  -->
-<!-- Version: 3.0  -->
-<!-- Latest Changes: 23/04/20  -->
-<!-- Modified:  23/04/20 -->
-<html lang="en">
+<!-- Version: 4.0  -->
+<!-- Latest Changes: 05/03/21  -->
+<!-- Modified:  05/03/21  -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
    <head>
       <meta charset="utf-8">
       <meta name="description" content="Matthew's web form">
@@ -27,7 +28,7 @@
          <!--This is the home picture link to take you back to the image map-->
          <div id="home_link">
             <a href="image_map.html">
-            <img border="0" alt="This is to home" src="images\home.png" width="50" height="50">
+            <img  style="border: 0" alt="This is to home" src="images\home.png" width="50" height="50">
             </a>
          </div>
          <!--This is the animations for the text at the top-->
