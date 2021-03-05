@@ -15,5 +15,5 @@ To then stop your containers:
 Then load your page in:
 
  ```
- localhost:8888/web_form.html
+ localhost:8888/web_form.php
  ```
