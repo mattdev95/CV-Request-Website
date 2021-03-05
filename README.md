@@ -4,11 +4,6 @@ To allow the requesting of a CV using a web form using JavaScript, JQuery, HTML,
 
 This website was for my Interactive Web Authoring module and I have removed all associated links and passwords. 
 
-Update: Recently updated some areas such as XHTML and Docker.
-
-
-Installation:
-
 To build the images, in the terminal you need to do:
 ```
   docker-compose up --build -d
